@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    background-color: var(--secondary-color);
+}
+html{
+    background-color: var(--secondary-color);
+}
+
+
+
+/*   Variables...*/
+
+:root{
+    --primary-color:#111010dc;
+    --secondary-color:#111129;
+}
+
+/*Body*/
+
+/* barra de navegacion */
+.link{
+    position: sticky;
+    top: 0;
+    width:100%;
+    height:88px;
+    margin: 0 auto;
+    font-size:25px;
+    opacity: 85%;
+    background-color: var(--primary-color);
+}
+.link img{
+    float: left;
+    width:90px;
+    margin-inline:50px;
+}
+.link a{
+    text-decoration:underline;
+    margin-left:700px;
+    font-size:30px;
+
+}
+.link button{
+    padding: 16px;
+    margin-inline:100px;
+    text-decoration:underline;
+    font-size:30px;
+}
+.btn_btn_primary{
+    color: #04b8ff;
+    background-color: transparent;
+    border: 0px;
+}
+/* Imagen central */
+.img{
+    margin: 0 auto;
+    margin-top: 10px;
+    border: 2px solid #fafcfd;
+    border-radius: 5px;
+    background-image: url(../images/batman2.jpeg);
+    position: center;
+    width:900px;
+    height:520px;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    box-shadow: 10px 10px 50px 15px #40798f9c;
+}
+.textoImagen{
+    margin-top:150px;
+    background-color: #351e1e88;
+    text-align: center;
+    padding: 10px 15px 5px 15px;
+    font-size:30px;
+    color: #fafcfd;
+}
+
+/* formulario Modal*/
+
+.modal-header{
+    background-color: #36333a67;
+}
+.modal-header h1{
+    margin-left: auto;
+
+}
+.modal-body{
+    background-color: #f7ebe996;
+}
+.titulo{
+    width: 100%;
+    margin:auto;
+    text-align: center;
+    color: #fafcfd;
+}
+.titulo h1{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.cuerpoFormulario{
+    border: 2px solid #c5e9f569;
+    background-color: #2a5877;
+    width: 70%;
+    display: flex;
+    margin: auto;
+    color: #fafcfd;
+}
+.form{
+    margin: auto;
+    width: 90%;
+}
+.form input{
+    width: 65%;
+    float: right;
+    border: 1px solid #40788f70;
+}
+.form label{
+    margin-top: 10px;
+}
+.texto textarea{
+    display: flex;
+    margin: auto;
+    margin-bottom: 10px;
+    border: 1px solid #40788f70;;
+}
+.botonEnviar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.botonEnviar button{
+    color: white;
+    background-color: #050505d5;
+    border: 2px solid #f9f8ff96;
+    padding: 2.5px 45px;
+    margin-bottom: 10px;
+}
